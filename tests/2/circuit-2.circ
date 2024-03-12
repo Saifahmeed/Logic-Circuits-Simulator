@@ -1,0 +1,7 @@
+INPUTS: 
+I0
+I1
+Components: 
+G1, AND, w1, Io, I1
+G2, OR, w1, Io, I1
+G3, NAND, Y, w1, w2

@@ -1,0 +1,36 @@
+Library file: 
+NAND2, 2, ~((i1|i0)&i0), 50
+OR2, 2, (i1|i0), 50
+NOR2, 2, ~(~((i1|i0)&i0)|i1), 50
+
+
+circ file
+INPUTS: 
+I0
+I1
+
+Components: 
+G1, OR, w1, i0, i1
+G2, NAND, w2, w1, i0
+G3, NOR, Y, w2, i1
+
+Stimuli file
+
+100, I0, 1
+200, I1, 1
+300, I0, 0
+
+
+simulation file
+0, w2, 1
+100, I0, 1
+150, w2, 0
+150, Y, 1
+150, w1, 1
+200, I1, 1
+250, Y, 0
+300, I0, 0
+350, w2, 1
+
+
+
