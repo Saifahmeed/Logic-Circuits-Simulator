@@ -1,0 +1,14 @@
+INPUTS: 
+I0
+I1
+I2
+Components: 
+G1, NAND, w1, Io, I1
+G2, NAND, Y, w1, w2
+G3, NOR, w2, I0, I2
+
+
+
+
+
+
