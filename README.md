@@ -82,4 +82,3 @@ Please ensure that your input files follow the specified formats to avoid errors
 Authors: - 
 Saif Abd Elfattah
 Adham Hassan
-Amr Mohamed Tolba
