@@ -80,5 +80,5 @@ The application performs error checks during execution and provides appropriate 
 Please ensure that your input files follow the specified formats to avoid errors.
 
 Authors: - 
-Saif Abd Elfattah
-Adham Hassan
+- Saif Abd Elfattah
+- Adham Hassan
